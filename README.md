@@ -1,9 +1,26 @@
 # CryptoAPI
 
-透過maven 建置的Spring-boot專案
+透過 Maven 建置的 Spring Boot 專案
 
-功能說明
-透過 Coindesk API 取得即時匯率資訊(API無法使用，使用mocking data)
-實作加分題
-運用 AOP 技術進行 API 呼叫及外部 API 請求與回應的日誌紀錄
-支援 Docker 容器化部署
+---
+
+## 功能說明
+
+- 透過 Coindesk API 取得即時匯率資訊  
+  >（API 無法使用，使用 mock 資料作為替代）
+
+---
+
+## 實作加分題
+
+1. **AOP 應用**  
+   - 印出所有 API 被呼叫紀錄  
+   - 記錄呼叫外部 API 的 Request 與 Response Body 日誌
+
+2. **錯誤處理**  
+   - API Response 錯誤處理與管理
+
+3. **Docker 支援**  
+   - 可在 Docker 容器中執行
+
+---
